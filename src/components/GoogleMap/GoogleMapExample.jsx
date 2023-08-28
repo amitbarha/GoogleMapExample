@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 function GoogleMapExample() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyANMtJTKAtFKL5sBPkvbrhyyhayI4I3iC4",
+    googleMapsApiKey: "YOUR_API_KEY",
   });
 
   if (!isLoaded) return <div>loading</div>;
